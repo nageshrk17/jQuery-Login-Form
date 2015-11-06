@@ -1,0 +1,90 @@
+body {
+    background: url(../img/profile-backgroud.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+#form {
+    width: 550px;
+    height: 300px;
+    border-color: black;
+    margin: 0 auto;
+    margin-top: 100px;
+    background-color: #fff;
+    border-radius: 20px;
+    font-family: 'FontAwesome', sans-serif;
+}
+
+#header {
+    width: 550px;
+    height: 70px;
+    border-radius: 20px 20px 0 0;
+    background-color: #f95252;
+    text-align: center;
+    padding-top: 5px;
+}
+
+#form input[type=text],
+input[type=password],
+input[type=email] {
+    background-color: #C0C0C0;
+    border-radius: 0.8em;
+    height: 30px;
+    width: 220px;
+    color: black;
+    border: 2px solid #776B5B;
+    box-shadow: 2px 2px 5px #202020;
+}
+
+input[type=button] {
+    background-color: #33cc77;
+    border: 2px solid #4d4945;
+    border-radius: 0.5em;
+    height: 35px;
+    width: 100px;
+    color: #fff;
+    font-size: 18px;
+}
+
+input[type=button]:hover {
+    background-color: #28ad63;
+}
+
+#tab {
+    margin: 0 auto;
+    margin-top: 20px;
+    width: 40%;
+    background-color: white;
+    font-family: verdana, arial, sans-serif;
+    border-collapse: collapse;
+    border-width: 1px;
+
+}
+
+#tab td,
+th {
+    padding: 8px;
+    border: 3px solid #f95252;
+    text-align: center;
+}
+
+
+/*To make Responsive Webpage*/
+
+@media only screen and (min-width: 220px) and (max-width: 480px) {
+    #form {
+        width: 320px;
+        height: 250px;
+    }
+    #header {
+        width: 320px;
+        height: 40px;
+        font-size: 12px;
+    }
+    #tab {
+        margin: 0 auto;
+        margin-top: 20px;
+        width: 30%;
+    }
+}

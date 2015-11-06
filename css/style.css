@@ -1,0 +1,97 @@
+body {
+    background: url(../img/login.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+#container {
+    margin: 0 auto;
+    width: 550px;
+    height: 170px;
+    border-radius: 1.3em;
+    position: relative;
+    background: transparent;
+    box-shadow: 2px 2px 7px #202020;
+    margin-top: 220px;
+}
+
+#section1 {
+    width: 400px;
+    height: 40px;
+    position: absolute;
+    top: 20px;
+    left: 30px;
+    font-family: Arial, sans-serif;
+}
+
+#section1 p {
+    color: #38332d;
+    font-size: 20px;
+}
+
+#font {
+    color: #534c44;
+    font-size: 15px;
+}
+
+#section2 {
+    width: 550px;
+    height: 50px;
+    position: absolute;
+    top: 90px;
+    left: 30px;
+}
+
+input[type=text],
+input[type=password] {
+    background-color: #80776a;
+    border-radius: 0.5em;
+    height: 35px;
+    color: #fff;
+    font-size: 16px;
+    padding-left: 10px;
+    border-top: 1px solid #38342f;
+    border-bottom: 1px solid #beb8b0;
+    border-right: 1px solid #686156;
+    border-left: 1px solid #686156;
+}
+
+input[type=submit] {
+    background-color: #4d4945;
+    border: 2px solid #4d4945;
+    border-radius: 0.5em;
+    height: 40px;
+    width: 90px;
+    font-size: 16px;
+    color: #b2afac;
+}
+
+
+/*To make Responsive Webpage*/
+
+@media only screen and (min-width: 220px) and (max-width: 480px) {
+    #container {
+        margin-left: 0;
+        width: 300px;
+        height: 300px;
+    }
+    #section1 {
+        width: 200px;
+        height: 20px;
+        position: absolute;
+        top: 20px;
+        left: 30px;
+    }
+    #section2 {
+        width: 150px;
+        height: 50px;
+        position: absolute;
+        top: 80px;
+        left: 30px;
+    }
+    #section1 p {
+        margin: 0 auto;
+        font-family: verdana, sans-serif;
+    }
+}
